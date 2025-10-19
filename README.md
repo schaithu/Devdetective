@@ -1,7 +1,7 @@
 DevDetective & Real-Time Messaging
 This is a single-page web application that combines two powerful functionalities: a GitHub user search tool ("DevDetective") and a real-time email contact form powered by EmailJS. It's built with modern web technologies, including Bootstrap 5 for a clean, responsive layout.
 
-Shutterstock
+
 
 ✨ Features
 GitHub User Search:
@@ -13,6 +13,8 @@ Dynamically updates the UI with the user's avatar, name, bio, join date, and key
 Includes direct links to their GitHub profile, personal website, and Twitter handle.
 
 Provides clear error feedback for invalid or non-existent usernames.
+
+
 
 Real-Time Email Form:
 
@@ -28,6 +30,9 @@ Built with Bootstrap 5, the application is fully responsive and works seamlessly
 
 Features a clean, modern aesthetic with custom styling and a professional font.
 
+
+
+
 🛠️ Technologies Used
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 
@@ -38,6 +43,9 @@ APIs:
 GitHub API: To fetch user profile data.
 
 EmailJS: To send emails directly from the client-side.
+
+
+
 
 🚀 Setup and Usage
 Because this is a client-side application, running it is very simple. However, to enable the email functionality, you'll need to configure your own free EmailJS account.
@@ -78,6 +86,8 @@ emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
     });
 Step 4: Run the Application
 Simply open the modified index.html file in any modern web browser (like Chrome, Firefox, or Edge). The application is now live and fully functional!
+
+
 
 🔧 How It Works
 GitHub Search
